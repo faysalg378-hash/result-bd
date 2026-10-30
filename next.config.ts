@@ -1,9 +1,8 @@
-import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  turbopack: {
-    root: process.cwd(),
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
   },
 };
 
-export default nextConfig;
+export default config;
